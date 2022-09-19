@@ -19,8 +19,9 @@ async function openWindow(params) {
 
 async function test_ivent(e) {
     if (e.keyCode === 13) {
-        console.log(text_form.value);
         while (true) {
+            openWindow(text_form.value);
+            openWindow(text_form.value);
             openWindow(text_form.value);
             openWindow(text_form.value);
             openWindow(text_form.value);
